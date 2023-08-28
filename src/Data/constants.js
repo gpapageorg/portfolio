@@ -1,5 +1,5 @@
 export const Bio = {
-  firstName: "Somebody",
+  firstName: "George",
   name: "George Papageorgiou",
   roles: [
     "Person",
@@ -8,28 +8,28 @@ export const Bio = {
     "Alive",
   ],
   description:
-    "To add",
+    "Here, You Can Take A Quick Look At My Projects",
   github: "https://github.com/gpapageorg",
   resume:
     "/",
   linkedin: "",
 };
 
-export const skills = [
+// export const skills = [
       
-];
+// ];
 
 
-export const education = [
-  {
-    id: 0,
-    img: "https://eclass.upatras.gr/courses/theme_data/6/logo-up-4color-stamp.gif",
-    school: "University Of Patras",
-    date: "Oct 2021 - Present",
-    desc: "Currently pursuing a diploma in Electrical And Computer Engineering",
-    degree: "Diploma In Electrical And Compter Engineering",
-  }
-];
+// export const education = [
+//   {
+//     id: 0,
+//     img: "https://eclass.upatras.gr/courses/theme_data/6/logo-up-4color-stamp.gif",
+//     school: "University Of Patras",
+//     date: "Oct 2021 - Present",
+//     desc: "Currently pursuing a diploma in Electrical And Computer Engineering",
+//     degree: "Diploma In Electrical And Compter Engineering",
+//   }
+// ];
 
 export const projects = [
   {
@@ -54,7 +54,7 @@ export const projects = [
   
 ];
 
-export const TimeLineData = [
-  { year: 2000, text: "" },
+// export const TimeLineData = [
+//   { year: 2000, text: "" },
   
-];
+// ];

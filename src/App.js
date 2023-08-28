@@ -7,8 +7,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import DescSection from './Components/DescSection';
 import Projects from "./Components/Projects";
 import ProjectDetails from "./Components/ProjectDetails";
-import { useState, useEffect } from "react";
-import Education from "./Components/Education"
+import { useState } from "react";
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -18,13 +18,13 @@ const Body = styled.div`
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
+
     <ThemeProvider theme={darkTheme}>
       <Router>
         <Navbar />
         <Body>
           <DescSection />
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          {/* <Education /> */}
           </Body>
 
         </Router>
