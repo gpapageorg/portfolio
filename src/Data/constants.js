@@ -35,7 +35,7 @@ export const projects = [
   {
     
     id: 0,
-    title: "Project 1",
+    title: "Arduino Weather Station",
     date: "Apr 2022 - Present",
     description:
       "",
