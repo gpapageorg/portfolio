@@ -35,22 +35,19 @@ export const projects = [
   {
     
     id: 0,
-    title: "Arduino Weather Station",
+    title: "Project 1",
     date: "Apr 2022 - Present",
     description:
       "",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "",
+    tags: ["C++", "Python", "PHP"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/gpapageorg/ws",
     member: [
       {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
+        name: "George Papageorgiou",
+        img: "https://avatars.githubusercontent.com/u/82286752?v=4",
       },
     ],
   }

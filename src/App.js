@@ -24,7 +24,7 @@ function App() {
         <Body>
           <DescSection />
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Education />
+          {/* <Education /> */}
           </Body>
 
         </Router>
