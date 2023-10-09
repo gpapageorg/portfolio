@@ -8,6 +8,7 @@ import DescSection from './Components/DescSection';
 import Projects from "./Components/Projects";
 import ProjectDetails from "./Components/ProjectDetails";
 import { useState } from "react";
+import Footer from './Footer';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -26,7 +27,6 @@ function App() {
           <DescSection />
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           </Body>
-
         </Router>
         {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />

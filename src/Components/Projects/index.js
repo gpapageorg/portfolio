@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../Data/constants'
-
+import { Divider } from './ProjectsStyle'
 
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
@@ -20,23 +20,17 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
-          {/* <Divider />
+          <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Web Apps</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Web Apps</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {/* {toggle === 'general' ?
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>General</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>General</ToggleButton>
           } */}
         </ToggleButtonGroup>
         <CardContainer>
@@ -49,10 +43,11 @@ const Projects = ({openModal,setOpenModal}) => {
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
+            
         </CardContainer>
       </Wrapper>
     </Container>
   )
 }
 
-export default Projects
+export default Projects;

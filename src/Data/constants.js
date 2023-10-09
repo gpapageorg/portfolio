@@ -35,13 +35,13 @@ export const projects = [
   {
     
     id: 0,
-    title: "Project 1",
+    title: "Weather App",
     date: "Apr 2022 - Present",
     description:
-      "",
+      "A web page that gathers and presents data from 3 weather stations.",
     image:
-      "",
-    tags: ["C++", "Python", "PHP"],
+      "https://github.com/gpapageorg/gpapageorg/assets/82286752/14f2b5ee-f9f3-42da-871c-5695c51a0551",
+    tags: ["Javascript", "Python", "CSS", "HTML", "PHP"],
     category: "web app",
     github: "https://github.com/gpapageorg/ws",
     member: [
@@ -50,11 +50,35 @@ export const projects = [
         img: "https://avatars.githubusercontent.com/u/82286752?v=4",
       },
     ],
+
+
+  },
+  {
+    
+    id: 1,
+    title: "Paradisos Bot",
+    date: "Apr 2022 - Present",
+    description:
+      "Discord bot that streams Radio Paradise Both main and rock mix.",
+    image:
+      "https://github.com/gpapageorg/paradisosbot/assets/82286752/6629df40-079d-4ddc-8478-ed1e27acd749",
+    tags: ["Python"],
+    category: "python",
+    github: "https://github.com/gpapageorg/paradisosbot",
+    member: [
+      {
+        name: "George Papageorgiou",
+        img: "https://avatars.githubusercontent.com/u/82286752?v=4",
+      },
+    ],
+
+    
   }
   
 ];
 
-// export const TimeLineData = [
-//   { year: 2000, text: "" },
+export const TimeLineData = [
+  { year: 2023, text: "This is" },
+  { year: 2023, text: "This is" }
   
-// ];
+];
