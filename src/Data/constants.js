@@ -1,24 +1,16 @@
 export const Bio = {
   firstName: "George",
   name: "George Papageorgiou",
-  roles: [
-    "Person",
-    "Human",
-    "Male",
-    "Alive",
-  ],
-  description:
-    "Here, You Can Take A Quick Look At My Projects",
+  roles: ["Person", "Human", "Male", "Alive"],
+  description: "Here, You Can Take A Quick Look At My Projects",
   github: "https://github.com/gpapageorg",
-  resume:
-    "/",
+  resume: "/",
   linkedin: "",
 };
 
 // export const skills = [
-      
-// ];
 
+// ];
 
 // export const education = [
 //   {
@@ -33,7 +25,6 @@ export const Bio = {
 
 export const projects = [
   {
-    
     id: 0,
     title: "Weather App",
     date: "Apr 2022 - Present",
@@ -50,11 +41,8 @@ export const projects = [
         img: "https://avatars.githubusercontent.com/u/82286752?v=4",
       },
     ],
-
-
   },
   {
-    
     id: 1,
     title: "Paradisos Bot",
     date: "Apr 2022 - Present",
@@ -71,14 +59,28 @@ export const projects = [
         img: "https://avatars.githubusercontent.com/u/82286752?v=4",
       },
     ],
-
-    
-  }
-  
+  },
+  {
+    id: 2,
+    title: "GitHub Preparator",
+    date: "Apr 2022 - Present",
+    description:
+      "This Tool Helps Automate The Process Of Creating The Git Repository For an Application ",
+    image:
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/82286752/294758158-209f7da7-d7d2-44f2-9a14-58a097df3ed9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240107T123620Z&X-Amz-Expires=300&X-Amz-Signature=aed931d88f16541af3f279bb9855a6614576c02ab88cb9ccce36f6ea77a583be&X-Amz-SignedHeaders=host&actor_id=82286752&key_id=0&repo_id=739871506",
+    tags: ["Python"],
+    category: "python",
+    github: "https://github.com/gpapageorg/githubprep",
+    member: [
+      {
+        name: "George Papageorgiou",
+        img: "https://avatars.githubusercontent.com/u/82286752?v=4",
+      },
+    ],
+  },
 ];
 
 export const TimeLineData = [
   { year: 2023, text: "This is" },
-  { year: 2023, text: "This is" }
-  
+  { year: 2023, text: "This is" },
 ];

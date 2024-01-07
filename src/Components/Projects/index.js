@@ -19,7 +19,7 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
-        <Desc>Desc To Be Filled</Desc>
+        <Desc>Here Are Some Of My Projects</Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
