@@ -27,6 +27,7 @@ export const projects = [
   {
     id: 0,
     title: "Weather App",
+    title: "Arduino Weather Station",
     date: "Apr 2022 - Present",
     description:
       "A web page that gathers and presents data from 3 weather stations.",
