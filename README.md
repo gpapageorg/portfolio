@@ -1,15 +1,19 @@
-<<<<<<< HEAD
-# Personal Portfolio
-This website was created using React.js
+<div align='center'>
 
-# Description
-This is a website to showcase my personal projects.
-Visit It Here: 
-=======
-# Personal Portfolio Website
-This Website Was Created Using The React.js Library
+<h1>Personal Portfolio To Showcase My Projects</h1>
+<h4> <a href=https://gpapageorgiou.netlify.app/>View Demo</a> <span> · </span> <a href="https://github.com/gpapageorg/Personal Portfolio/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/gpapageorg/Personal Portfolio/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/gpapageorg/Personal Portfolio/issues"> Request Feature </a> </h4>
 
-#Description
-This Is A Website To Showcase My Projects <br /> 
-Visit It Here: https://gpapageorgiou.netlify.app/
->>>>>>> a053e33831459a8fe553bbfdbe535f6b8f3e897f
+
+</div>
+
+# :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+- [License](#warning-license)
+
+
+## :star2: About the Project
+
+## :warning: License
+
+Distributed under the no License. See LICENSE.txt for more information.
