@@ -68,7 +68,7 @@ export const projects = [
     description:
       "This Tool Helps Automate The Process Of Creating The Git Repository For an Application ",
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/82286752/294758158-209f7da7-d7d2-44f2-9a14-58a097df3ed9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240107T123620Z&X-Amz-Expires=300&X-Amz-Signature=aed931d88f16541af3f279bb9855a6614576c02ab88cb9ccce36f6ea77a583be&X-Amz-SignedHeaders=host&actor_id=82286752&key_id=0&repo_id=739871506",
+      "https://github.com/gpapageorg/githubprep/assets/82286752/24a4a73a-0014-4794-8d92-5a9f70a32976",
     tags: ["Python"],
     category: "python",
     github: "https://github.com/gpapageorg/githubprep",
